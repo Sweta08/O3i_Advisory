@@ -28,7 +28,6 @@ function LoginForm() {
   const [email, setEmail] = useState("");
 
   const handleRedirect = () => {
-    debugger;
     if (email === "admin@admin.com" && password === "admin") {
       navigate("/dashbaord");
     } else {
